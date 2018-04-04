@@ -23,7 +23,6 @@ Labels = np.asarray(Labels, dtype=np.int32)
 
 # Initialize facial recognizer
 model = cv2.face.LBPHFaceRecognizer_create()
-#recognizer = cv2.face.LBPHFaceRecognizer_create()
 # NOTE: For OpenCV 3.0 use cv2.face.createLBPHFaceRecognizer()
 
 # Let's train our model 
